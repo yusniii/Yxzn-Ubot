@@ -37,9 +37,9 @@ DEFAULT = list(map(int, b64decode("NTA2MzA2MjQ5Mw==").split()))
 
 
 KAZU_IMAGES = [
-    f"https://graph.org/file/{_}.jpg"
+    f"https://telegra.ph/file/{_}.jpg"
     for _ in [
-        "d854abd533a783c6642b1",
+        "7dff64eb30c82741ab9f5",
     ]
 ]
 
