@@ -180,8 +180,8 @@ def devs_cmd(**args):
                 if not disable_errors:
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
-                    text = "**✘ KAZU-UBOT ERROR REPORT ✘**\n\n"
-                    link = "[Group Support](https://t.me/kazusupportgrp)"
+                    text = "**✘ YXZN-UBOT ERROR REPORT ✘**\n\n"
+                    link = "[Channel Support](https://t.me/storeyxzn)"
                     text += "Jika mau, Anda bisa melaporkan error ini, "
                     text += f"Cukup forward saja pesan ini ke {link}.\n\n"
 
@@ -190,7 +190,7 @@ def devs_cmd(**args):
                     ftext += "\nkami hanya mencatat fakta error dan tanggal,"
                     ftext += "\nkami menghormati privasi Anda."
                     ftext += "\nJika mau, Anda bisa melaporkan error ini,"
-                    ftext += "\ncukup forward saja pesan ini ke @kazusupportgrp"
+                    ftext += "\ncukup forward saja pesan ini ke @storeyxzn"
                     ftext += "\n================================\n\n"
                     ftext += "--------BEGIN USERBOT TRACEBACK LOG--------\n"
                     ftext += "\nTanggal : " + date
