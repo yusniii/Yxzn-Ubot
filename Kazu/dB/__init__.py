@@ -29,7 +29,7 @@ DEVLIST = [
     482945686,  # nan
     961659670,  # kazu
     984144778,  # aki-aki
-    479344690,  # rey
+    1765202724,  # @rChoiHyunWook
 ]
 
 
