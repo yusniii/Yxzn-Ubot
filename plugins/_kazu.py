@@ -14,21 +14,21 @@ from telethon.errors import (
 from . import LOG_CHANNEL, LOGS, Button, asst, kazu_cmd, eor, get_string
 
 REPOMSG = """
-◈ **ᴋᴀᴢᴜ ᴜʙᴏᴛ​** ◈\n
-◈ Repo - [Click Here](https://github.com/ionmusic/Kazu-Ubot)
+◈ **YXZN UBOT​** ◈\n
+◈ Repo - [Click Here](https://github.com/yusniii/Yxzn-Ubot)
 ◈ Addons - [Click Here](https://github.com/ionmusic/addons)
-◈ Support - @kazusupportgrp
+◈ Support - @storeyxzn
 """
 
 RP_BUTTONS = [
     [
-        Button.url(get_string("bot_3"), "https://github.com/ionmusic/Kazu-Ubot"),
+        Button.url(get_string("bot_3"), "https://github.com/yusniii/Yxzn-Ubot"),
         Button.url("Addons", "https://github.com/ionmusic/Addons"),
     ],
-    [Button.url("Support Group", "t.me/kazusupportgrp")],
+    [Button.url("Support Group", "t.me/storeyxzn")],
 ]
 
-KAZUSTRING = """🎇 **Thanks for Deploying ᴋᴀᴢᴜ ᴜʙᴏᴛ!**
+KAZUSTRING = """🎇 **Thanks for Deploying YXZN UBOT!**
 
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
 
