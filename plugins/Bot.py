@@ -74,21 +74,21 @@ def KAZUPIC():
 
 buttons = [
     [
-        Button.url(get_string("bot_3"), "https://github.com/ionmusic/Kazu-Ubot"),
-        Button.url(get_string("bot_4"), "t.me/kazusupportgrp"),
+        Button.url(get_string("bot_3"), "https://github.com/yusniii/Yxzn-Ubot"),
+        Button.url(get_string("bot_4"), "t.me/storeyxzn"),
     ]
 ]
 
 # Will move to strings
 alive_txt = """
-◈ ᴋᴀᴢᴜ ᴜʙᴏᴛ​
+◈ YXZN UBOT
 
   ◈ Version - {}
   ◈ Kazu - {}
   ◈ Telethon - {}
 """
 
-in_alive = "{}\n\n◈ <b>Kazu Version -><b> <code>{}</code>\n◈ <b>Kazu -></b> <code>{}</code>\n◈ <b>Python -></b> <code>{}</code>\n◈ <b>Waktu aktif -></b> <code>{}</code>\n◈ <b>Branch -></b> [ {} ]\n\n• <b>© ᴋᴀᴢᴜ ᴜʙᴏᴛ​</b>"
+in_alive = "{}\n\n◈ <b>Yxzn Version -><b> <code>{}</code>\n◈ <b>Kazu -></b> <code>{}</code>\n◈ <b>Python -></b> <code>{}</code>\n◈ <b>Waktu aktif -></b> <code>{}</code>\n◈ <b>Branch -></b> [ {} ]\n\n• <b>© ᴋᴀᴢᴜ ᴜʙᴏᴛ​</b>"
 
 
 async def get_readable_time(seconds: int) -> str:
@@ -357,7 +357,7 @@ async def _(e):
         )
     else:
         await xx.edit(
-            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://github.com/ionmusic/Kazu-Ubot/tree/{branch}">[{branch}]</a></strong>',
+            f'<code>Your BOT is </code><strong>up-to-date</strong><code> with </code><strong><a href="https://github.com/yusniii/Yxzn-Ubot/tree/{branch}">[{branch}]</a></strong>',
             parse_mode="html",
             link_preview=False,
         )
