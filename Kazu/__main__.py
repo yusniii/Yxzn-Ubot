@@ -65,7 +65,7 @@ def main():
 
     suc_msg = """
             ----------------------------------------------------------------------
-                                      ◈ ᴋᴀᴢᴜ ᴜʙᴏᴛ​ ◈
+                                      ◈ YXZN UBOT​ ◈
             ----------------------------------------------------------------------
     """
 
@@ -92,7 +92,7 @@ def main():
         pass
 
     LOGS.info(
-        f"Took {time_formatter((time.time() - start_time)*1000)} to start ◈ ᴋᴀᴢᴜ ᴜʙᴏᴛ​ ◈"
+        f"Took {time_formatter((time.time() - start_time)*1000)} to start ◈ YXZN UBOT​ ◈"
     )
     LOGS.info(suc_msg)
 
