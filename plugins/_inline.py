@@ -52,8 +52,8 @@ upage = 0
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/ionmusic/Kazu-Ubot"),
-        Button.url("• Support •", url="t.me/kazusupportgrp"),
+        Button.url("• Repo •", url="https://github.com/yusniii/Yxzn-Ubot"),
+        Button.url("• Support •", url="t.me/storeyxzn"),
     ],
 ]
 
@@ -373,7 +373,7 @@ async def ibuild(e):
                             _pic,
                             title="Kazu Op",
                             text=txt,
-                            description="@DisiniKazu",
+                            description="@rchoihyunwook",
                             buttons=btn,
                             link_preview=False,
                         )
@@ -389,7 +389,7 @@ async def ibuild(e):
                         title="Kazu Op",
                         type=_type,
                         text=txt,
-                        description="@DisiniKazu",
+                        description="@rchoihyunwook",
                         include_media=include_media,
                         buttons=btn,
                         thumb=cont,
