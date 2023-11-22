@@ -29,7 +29,7 @@ if Owner_info_msg is None:
 
 **Message Forwards** - {udB.get_key("PMBOT")}
 
-**◈ ᴋᴀᴢᴜ ᴜʙᴏᴛ​ ◈ [v{kazu_version}](https://github.com/ionmusic/Kazu-Ubot), powered by @disinikazu**
+**◈ YXZN UBOT ◈ [v{kazu_version}](https://github.com/yusniii/Yxzn-Ubot), powered by @rchoihyunwook**
 """
 
 
@@ -68,7 +68,7 @@ async def own(event):
         mention=event.sender.mention, me=inline_mention(kazu_bot.me)
     )
     if custom_info:
-        msg += "\n\n• Powered by **@kazusupportgrp**"
+        msg += "\n\n• Powered by **@storeyxzn**"
     await event.edit(
         msg,
         buttons=[Button.inline("Close", data="closeit")],
@@ -159,7 +159,7 @@ async def ayra(event):
 @callback("stat", owner=True)
 async def botstat(event):
     ok = len(get_all_users("BOT_USERS"))
-    msg = """Kazu Assistant - Stats
+    msg = """Yxzn Assistant - Stats
 Total Users - {}""".format(
         ok,
     )
