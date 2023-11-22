@@ -99,11 +99,11 @@ async def join_ajg():
     from .. import kazu_bot
 
     try:
-        await kazu_bot(JoinChannelRequest("kynansupport"))
-        await kazu_bot(JoinChannelRequest("KazuSupportGrp"))
+        await kazu_bot(JoinChannelRequest("randomajaboss"))
+        await kazu_bot(JoinChannelRequest("Storeyxzn"))
     except rpcerrorlist.ChannelPrivateError:
         print(
-            "Lu Di Ban Di @KazuSupportGrp atau @kynansupport Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu Sana."
+            "Lu Di Ban Di @Storeyxzn atau @Randomajaboss Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu Sana."
         )
         sys.exit(1)
 
@@ -249,8 +249,8 @@ async def autopilot():
         try:
             r = await kazu_bot(
                 CreateChannelRequest(
-                    title="Logs Kazu Ubot",
-                    about="Logs Kazu Ubot \n\n Cʀᴇᴀᴛᴇᴅ Bʏ @kazusupportgrp",
+                    title="Logs Yxzn Ubot",
+                    about="Logs Yxzn Ubot \n\n Cʀᴇᴀᴛᴇᴅ Bʏ @Storeyxzn",
                     megagroup=True,
                 ),
             )
@@ -316,7 +316,7 @@ async def autopilot():
                 LOGS.exception(er)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://graph.org//file/d854abd533a783c6642b1.jpg",
+            "https://telegra.ph/file/7dff64eb30c82741ab9f5.jpg",
             "resources/extras/logo.jpg",
         )
         ll = await kazu_bot.upload_file(photo)
@@ -348,7 +348,7 @@ async def customize():
             sir = f"@{kazu_bot.me.username}"
         file = random.choice(
             [
-                "https://graph.org//file/d854abd533a783c6642b1.jpg",
+                "https://telegra.ph/file/7dff64eb30c82741ab9f5.jpg",
                 "resources/extras/logo.jpg",
             ]
         )
@@ -385,7 +385,7 @@ async def customize():
         await asyncio.sleep(1)
         await kazu_bot.send_message(
             "botfather",
-            f"✨ Powerful Kazu Assistant Bot ✨\n✨ Master ~ {sir} ✨\n\n✨ Powered By ~ @KazuSupportGrp ✨",
+            f"✨ Powerful Yxzn Assistant Bot ✨\n✨ Master ~ {sir} ✨\n\n✨ Powered By ~ @Storeyxzn ✨",
         )
         await asyncio.sleep(2)
         await msg.edit("Completed **Auto Customisation** at @BotFather.")
@@ -443,9 +443,9 @@ async def ready():
     chat_id = udB.get_key("LOG_CHANNEL")
     spam_sent = None
     if not udB.get_key("INIT_DEPLOY"):  # Detailed Message at Initial Deploy
-        MSG = """ **Thanks for Deploying Kazu Ubot!**
+        MSG = """ **Thanks for Deploying Yxzn Ubot!**
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
-        PHOTO = "https://graph.org//file/d854abd533a783c6642b1.jpg"
+        PHOTO = "https://telegra.ph/file/7dff64eb30c82741ab9f5.jpg"
         BTTS = Button.inline("• Click to Start •", "initft_2")
         udB.set_key("INIT_DEPLOY", "Done")
     else:
