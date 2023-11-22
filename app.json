@@ -1,13 +1,13 @@
 {
-    "name": "Kazu UBot",
-    "description": "Kazu-Ubot Dibuat Untuk String Telethon Dan Pyrogram Untuk ID 5 Pasti Aman.",
-    "logo": "https://graph.org//file/d854abd533a783c6642b1.jpg",
+    "name": "Yxzn UBot",
+    "description": "Yxzn-Ubot Dibuat Untuk String Telethon Dan Pyrogram Untuk ID 5 Pasti Aman.",
+    "logo": "https://telegra.ph/file/7dff64eb30c82741ab9f5.jpg",
     "keywords": [
         "Telethon",
         "Pyrogram"
     ],
-    "repository": "https://github.com/ionmusic/Kazu-Ubot",
-    "success_url": "https://t.me/disinikazu",
+    "repository": "https://github.com/yusniii/Yxzn-Ubot",
+    "success_url": "https://t.me/rchoihyunwook",
     "stack": "container",
     "env": {
         "API_ID": {
