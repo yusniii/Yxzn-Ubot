@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="https://graph.org//file/d854abd533a783c6642b1.jpg" alt="Kazu Logo">
+  <img src="https://telegra.ph/file/7dff64eb30c82741ab9f5.jpg" alt="Yxzn Logo">
 </p>
 <h1 align="center">
-  <b>ᴋᴀᴢᴜ ꭙ ᴜʙᴏᴛ​</b>
+  <b>YXZN ꭙ UBOT</b>
 </h1>
 
 <b>A stable pluggable Telegram userbot + Voice & Video Call music bot, based on Telethon and Pyrogram.</b>
 
-<a href="https://github.com/ionmusic/Kazu-Ubot/commits"> <img src="https://img.shields.io/github/last-commit/ionmusic/Kazu-Ubot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/ionmusic/Kazu-Ubot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/ionmusic/Kazu-Ubot/graphs/commit-activity)
+<a href="https://github.com/yusniii/Yxzn-Ubot/commits"> <img src="https://img.shields.io/github/last-commit/yusniii/yxzn-Ubot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/yusniii/Yxzn-Ubot)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/yusniii/Yxzn-Ubot/graphs/commit-activity)
 [![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/ionmusic/Kazu-Ubot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/ionmusic/Kazu-Ubot?&logo=github)](https://github.com/ionmusic/Kazu-Ubot/fork)
+[![GitHub Forks](https://img.shields.io/github/forks/ionmusic/Kazu-Ubot?&logo=github)](https://github.com/yusniii/Yxzn-Ubot/fork)
 [![GitHub Stars](https://img.shields.io/github/stars/ionmusic/Kazu-Ubot?&logo=github)](https://github.com/ionmusic/Kazu-Ubot/stargazers)
 ----
 
