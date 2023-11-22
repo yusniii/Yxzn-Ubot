@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-REPO="https://github.com/ionmusic/Kazu-Ubot.git"
+REPO="https://github.com/yusniii/Yxzn-Ubot.git"
 DIR="/root/ionmusic"
 
 spinner(){
